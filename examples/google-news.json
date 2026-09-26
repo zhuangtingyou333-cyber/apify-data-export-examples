@@ -1,0 +1,11 @@
+{
+  "actor": "peerless_columbine~google-news-scraper-api",
+  "input": {
+    "queries": [
+      "artificial intelligence"
+    ],
+    "maxArticles": 5,
+    "maxItems": 5
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/google-news-scraper-api/examples/export-google-news-keyword-alerts"
+}
