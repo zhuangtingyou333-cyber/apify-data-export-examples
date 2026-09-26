@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "apify-news-and-reviews": {
+      "url": "https://mcp.apify.com?tools=peerless_columbine/apple-app-store-reviews-scraper-api,peerless_columbine/google-news-scraper-api"
+    }
+  }
+}

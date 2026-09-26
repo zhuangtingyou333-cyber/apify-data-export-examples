@@ -2,7 +2,18 @@
 
 Small Python examples for running ten hosted Apify Actors and exporting JSON or CSV. Python 3.9+; no npm or third-party Python packages required.
 
-**Publisher disclosure:** These examples are maintained for the paid Actors published by `peerless_columbine`. The examples were developed with AI assistance. The hosted Actors charge for delivered results; Most Actors add platform resource costs. Google Play Reviews and Workday include Actor-run resources; Workday also has its listed start event. Check each Actor's live Pricing tab. These are integration examples, not independent product recommendations.
+**Publisher disclosure:** These examples are maintained for the paid Actors published by `peerless_columbine`. The examples were developed with AI assistance. The hosted Actors charge for delivered results; most Actors add platform resource costs. Google Play Reviews and Workday include Actor-run resources; Workday also has its listed start event. Check each Actor's live Pricing tab. These are integration examples, not independent product recommendations.
+
+## Two focused workflows to start with
+
+| Goal | Walkthrough | Inspect data before running |
+|---|---|---|
+| Export App Store reviews separately for US, UK and Germany | [Country-review guide](app-store-reviews-by-country.md) | [JSON preview](app-store-countries-preview-20260927.json) / [CSV](app-store-countries-preview-20260927.csv) |
+| Export a company's recent Google News mentions | [Brand-news guide](google-news-brand-monitoring.md) | [JSON preview](google-news-brand-preview-20260927.json) / [CSV](google-news-brand-preview-20260927.csv) |
+
+[Download the workflow starter](apify-workflow-starter-20260927.zip) · [Connect both Actors to an AI assistant](ai-assistant-setup.md)
+
+The September 27 owner checks returned 15 reviews (five per country) and five news articles. Samples are dated, with selected fields; these are not live feeds or proof of customer adoption. The guides explain exact inputs, source limits and illustrative costs. The original ten examples remain available below.
 
 ## Inspect sample data before creating an account
 
