@@ -1,0 +1,17 @@
+{
+  "actor": "peerless_columbine~apple-app-store-reviews-scraper-api",
+  "input": {
+    "appIds": [
+      "389801252"
+    ],
+    "countries": [
+      "us",
+      "gb",
+      "de"
+    ],
+    "sourceMode": "archive",
+    "maxReviewsPerAppCountry": 5,
+    "maxItems": 15,
+    "maxPages": 1
+  }
+}

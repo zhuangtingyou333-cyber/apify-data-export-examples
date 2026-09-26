@@ -1,0 +1,16 @@
+{
+  "actor": "peerless_columbine~google-news-scraper-api",
+  "input": {
+    "queries": [
+      "NVIDIA"
+    ],
+    "region_language": "US:en",
+    "dateRange": "7d",
+    "maxArticles": 5,
+    "maxItems": 5,
+    "resolvePublisherUrls": true,
+    "extractFullText": false,
+    "extractImages": false,
+    "maxFeedRequestsPerQuery": 2
+  }
+}
