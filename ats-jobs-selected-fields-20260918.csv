@@ -1,0 +1,6 @@
+ats,company,title,location,remote,remote_type,department,employment_type,seniority,salary,url,apply_url,global_id,scraped_at,warnings
+greenhouse,stripe,Abuse Investigator,Dublin,False,,8611 Security Analytics,,,,https://stripe.com/jobs/search?gh_jid=8172508,,greenhouse:stripe:8172508,2026-09-17T18:31:24.107792+00:00,"[""remote_status_unknown""]"
+greenhouse,stripe,Abuse Investigator,"Seattle, San Francisco, New York City",False,,8611 Security Analytics,,,,https://stripe.com/jobs/search?gh_jid=8172510,,greenhouse:stripe:8172510,2026-09-17T18:31:24.109108+00:00,"[""remote_status_unknown""]"
+greenhouse,stripe,Abuse Investigator,Dublin,False,,8611 Security Analytics,,,,https://stripe.com/jobs/search?gh_jid=8172487,,greenhouse:stripe:8172487,2026-09-17T18:31:24.110377+00:00,"[""remote_status_unknown""]"
+greenhouse,stripe,Abuse Research Engineer,Remote from the US,True,remote,8611 Security Analytics,,,,https://stripe.com/jobs/search?gh_jid=8172503,,greenhouse:stripe:8172503,2026-09-17T18:31:24.111640+00:00,[]
+greenhouse,stripe,"Account Executive, AI Sales","San Francisco, CA",False,,1175 Enterprise - Account Executives (NA),,,,https://stripe.com/jobs/search?gh_jid=7532733,,greenhouse:stripe:7532733,2026-09-17T18:31:24.112442+00:00,"[""remote_status_unknown""]"

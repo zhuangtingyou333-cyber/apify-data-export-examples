@@ -1,0 +1,95 @@
+[
+  {
+    "ats": "greenhouse",
+    "company": "stripe",
+    "title": "Abuse Investigator",
+    "location": "Dublin",
+    "remote": false,
+    "remote_type": null,
+    "department": "8611 Security Analytics",
+    "employment_type": null,
+    "seniority": null,
+    "salary": null,
+    "url": "https://stripe.com/jobs/search?gh_jid=8172508",
+    "apply_url": null,
+    "global_id": "greenhouse:stripe:8172508",
+    "scraped_at": "2026-09-17T18:31:24.107792+00:00",
+    "warnings": [
+      "remote_status_unknown"
+    ]
+  },
+  {
+    "ats": "greenhouse",
+    "company": "stripe",
+    "title": "Abuse Investigator",
+    "location": "Seattle, San Francisco, New York City",
+    "remote": false,
+    "remote_type": null,
+    "department": "8611 Security Analytics",
+    "employment_type": null,
+    "seniority": null,
+    "salary": null,
+    "url": "https://stripe.com/jobs/search?gh_jid=8172510",
+    "apply_url": null,
+    "global_id": "greenhouse:stripe:8172510",
+    "scraped_at": "2026-09-17T18:31:24.109108+00:00",
+    "warnings": [
+      "remote_status_unknown"
+    ]
+  },
+  {
+    "ats": "greenhouse",
+    "company": "stripe",
+    "title": "Abuse Investigator",
+    "location": "Dublin",
+    "remote": false,
+    "remote_type": null,
+    "department": "8611 Security Analytics",
+    "employment_type": null,
+    "seniority": null,
+    "salary": null,
+    "url": "https://stripe.com/jobs/search?gh_jid=8172487",
+    "apply_url": null,
+    "global_id": "greenhouse:stripe:8172487",
+    "scraped_at": "2026-09-17T18:31:24.110377+00:00",
+    "warnings": [
+      "remote_status_unknown"
+    ]
+  },
+  {
+    "ats": "greenhouse",
+    "company": "stripe",
+    "title": "Abuse Research Engineer",
+    "location": "Remote from the US",
+    "remote": true,
+    "remote_type": "remote",
+    "department": "8611 Security Analytics",
+    "employment_type": null,
+    "seniority": null,
+    "salary": null,
+    "url": "https://stripe.com/jobs/search?gh_jid=8172503",
+    "apply_url": null,
+    "global_id": "greenhouse:stripe:8172503",
+    "scraped_at": "2026-09-17T18:31:24.111640+00:00",
+    "warnings": []
+  },
+  {
+    "ats": "greenhouse",
+    "company": "stripe",
+    "title": "Account Executive, AI Sales",
+    "location": "San Francisco, CA",
+    "remote": false,
+    "remote_type": null,
+    "department": "1175 Enterprise - Account Executives (NA)",
+    "employment_type": null,
+    "seniority": null,
+    "salary": null,
+    "url": "https://stripe.com/jobs/search?gh_jid=7532733",
+    "apply_url": null,
+    "global_id": "greenhouse:stripe:7532733",
+    "scraped_at": "2026-09-17T18:31:24.112442+00:00",
+    "warnings": [
+      "remote_status_unknown"
+    ]
+  }
+]
