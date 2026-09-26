@@ -4,6 +4,12 @@ Small Python examples for running ten hosted Apify Actors and exporting JSON or 
 
 **Publisher disclosure:** These examples are maintained for the paid Actors published by `peerless_columbine`. The examples were developed with AI assistance. The hosted Actors charge for delivered results; most Actors add platform resource costs. Google Play Reviews and Workday include Actor-run resources; Workday also has its listed start event. Check each Actor's live Pricing tab. These are integration examples, not independent product recommendations.
 
+## All ten workflows
+
+**[Choose from the complete workflow catalog](actor-workflows.md)** — dated JSON/CSV previews, exact starter inputs and step-by-step guides for every published Actor.
+
+[Download the complete starter](apify-portfolio-starter-20260927.zip) · [Connect selected tools to an AI assistant](ai-assistant-setup.md)
+
 ## Two focused workflows to start with
 
 | Goal | Walkthrough | Inspect data before running |
@@ -75,6 +81,9 @@ Edit the `input` object in one of the `examples/*.json` files:
 The JSON output retains nested fields. CSV serializes nested values as JSON strings and prefixes source strings that could be interpreted as spreadsheet formulas.
 
 ## Verification
+
+The current September 27 portfolio check covers all ten small presets; see [the catalog](actor-workflows.md) for scope and resource notes. Older checks below remain historical.
+
 
 On September 18, 2026 (UTC+8), bounded owner-run cloud checks returned real records for the seven newly linked examples. App Store, Google Play and Bilibili examples have bounded cloud checks dated September 11. These checks establish sample execution, not customer adoption, complete historical coverage, or guaranteed future availability. Source websites and records change.
 

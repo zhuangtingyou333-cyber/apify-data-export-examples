@@ -1,0 +1,4 @@
+title,companyName,jobUrl,locations,salaryMinUsd,salaryMaxUsd,equityMinPercent,equityMaxPercent,coverage
+"Software Engineer, Staff",Check,https://wellfound.com/jobs/4762995-software-engineer-staff,"[""United States""]",228000,264000,,,complete
+"Software Engineer, Senior",Check,https://wellfound.com/jobs/4762994-software-engineer-senior,"[""United States""]",185000,225000,,,complete
+Senior Software Engineer,Confident LIMS,https://wellfound.com/jobs/4697947-senior-software-engineer,"[""San Francisco Bay Area""]",100000,180000,0.05,0.25,complete

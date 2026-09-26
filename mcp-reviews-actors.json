@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "apify-reviews": {
+      "url": "https://mcp.apify.com?tools=peerless_columbine/apple-app-store-reviews-scraper-api,peerless_columbine/google-play-reviews-scraper-api,peerless_columbine/trustpilot-reviews-data-scraper"
+    }
+  }
+}

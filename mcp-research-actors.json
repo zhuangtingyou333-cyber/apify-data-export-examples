@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "apify-research": {
+      "url": "https://mcp.apify.com?tools=peerless_columbine/bilibili-all-in-one-scraper-api,peerless_columbine/google-trends-scraper-api,peerless_columbine/google-news-scraper-api"
+    }
+  }
+}

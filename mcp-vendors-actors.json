@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "apify-vendors": {
+      "url": "https://mcp.apify.com?tools=peerless_columbine/clutch-companies-reviews-scraper"
+    }
+  }
+}

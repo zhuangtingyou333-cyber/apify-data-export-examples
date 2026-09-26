@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Software Engineer, Staff",
+    "companyName": "Check",
+    "jobUrl": "https://wellfound.com/jobs/4762995-software-engineer-staff",
+    "locations": [
+      "United States"
+    ],
+    "salaryMinUsd": 228000,
+    "salaryMaxUsd": 264000,
+    "equityMinPercent": null,
+    "equityMaxPercent": null,
+    "coverage": "complete"
+  },
+  {
+    "title": "Software Engineer, Senior",
+    "companyName": "Check",
+    "jobUrl": "https://wellfound.com/jobs/4762994-software-engineer-senior",
+    "locations": [
+      "United States"
+    ],
+    "salaryMinUsd": 185000,
+    "salaryMaxUsd": 225000,
+    "equityMinPercent": null,
+    "equityMaxPercent": null,
+    "coverage": "complete"
+  },
+  {
+    "title": "Senior Software Engineer",
+    "companyName": "Confident LIMS",
+    "jobUrl": "https://wellfound.com/jobs/4697947-senior-software-engineer",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "salaryMinUsd": 100000,
+    "salaryMaxUsd": 180000,
+    "equityMinPercent": 0.05,
+    "equityMaxPercent": 0.25,
+    "coverage": "complete"
+  }
+]

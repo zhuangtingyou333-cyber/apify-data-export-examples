@@ -1,10 +1,52 @@
-# Connect app reviews and Google News directly to an AI assistant
+# Connect selected Apify data tools directly to an AI assistant
 
 Use Apify's hosted MCP server to expose these two Actors as named tools. Once you choose the tools, your AI client does not need to search the marketplace on each call. This setup does not improve marketplace rankings or guarantee that an AI will recommend the products.
 
-These examples are maintained by the paid Actors' publisher and were created with AI assistance. Runs use your own Apify account and credits. Both Actors charge result fees plus platform resources; any separate AI-client subscription is outside this setup.
+These examples are maintained by the paid Actors' publisher and were created with AI assistance. Runs use your own Apify account and credits. The original App Store and News pair charge result fees plus platform resources; any separate AI-client subscription is outside this setup.
 
-## Add the server
+## Choose a workflow group
+
+For all ten published Actors, choose the smallest group matching your task. Add its URL in an OAuth-capable remote MCP client; configuration syntax varies by client. Each named tool still needs its own valid input. The general setup below retains the original two-tool news/App Store example.
+
+### Research
+
+```text
+https://mcp.apify.com?tools=peerless_columbine/bilibili-all-in-one-scraper-api,peerless_columbine/google-trends-scraper-api,peerless_columbine/google-news-scraper-api
+```
+
+[JSON configuration](mcp-research-actors.json)
+
+### Reviews
+
+```text
+https://mcp.apify.com?tools=peerless_columbine/apple-app-store-reviews-scraper-api,peerless_columbine/google-play-reviews-scraper-api,peerless_columbine/trustpilot-reviews-data-scraper
+```
+
+[JSON configuration](mcp-reviews-actors.json)
+
+### Jobs
+
+```text
+https://mcp.apify.com?tools=peerless_columbine/wellfound-jobs-scraper-api,peerless_columbine/multi-ats-jobs-scraper,peerless_columbine/workday-public-jobs-data
+```
+
+[JSON configuration](mcp-jobs-actors.json)
+
+### Vendors
+
+```text
+https://mcp.apify.com?tools=peerless_columbine/clutch-companies-reviews-scraper
+```
+
+[JSON configuration](mcp-vendors-actors.json)
+
+Most products add platform resource costs. Google Play and Workday include Actor-run resources; Workday adds its listed start event. Native Actor tools do not expose a total-dollar cap. Use the bounded Console/Python workflow when you need the event cap. An AI client may charge separately.
+
+On September 27, 2026, authenticated initialization and `tools/list` checks of all four group URLs returned all ten expected named Actor tools with input schemas. The bounded inputs were separately checked in cloud runs. This does not establish end-to-end behavior in every AI client.
+
+[Choose an exact input from the ten workflow guides](actor-workflows.md). No schedules are created by these examples.
+
+## Add the original two-tool server
 
 In a client that supports remote MCP with OAuth, add this server URL:
 

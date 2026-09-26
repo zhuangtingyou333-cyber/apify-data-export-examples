@@ -1,0 +1,35 @@
+[
+  {
+    "appId": "com.whatsapp",
+    "country": "US",
+    "language": "en",
+    "score": 2,
+    "at": "2026-09-25T17:39:26.092Z",
+    "appVersion": "2.26.29.73",
+    "coverage": "complete",
+    "textExcerpt": "hi hi",
+    "hasDeveloperReply": false
+  },
+  {
+    "appId": "com.whatsapp",
+    "country": "US",
+    "language": "en",
+    "score": 2,
+    "at": "2026-09-25T17:36:55.344Z",
+    "appVersion": null,
+    "coverage": "complete",
+    "textExcerpt": "21career",
+    "hasDeveloperReply": false
+  },
+  {
+    "appId": "com.whatsapp",
+    "country": "US",
+    "language": "en",
+    "score": 1,
+    "at": "2026-09-25T17:33:28.389Z",
+    "appVersion": "2.26.37.73",
+    "coverage": "complete",
+    "textExcerpt": "Whatsapp is working terrible Right now. though I've backed up all my chats, still it's giving error ",
+    "hasDeveloperReply": false
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "apify-jobs": {
+      "url": "https://mcp.apify.com?tools=peerless_columbine/wellfound-jobs-scraper-api,peerless_columbine/multi-ats-jobs-scraper,peerless_columbine/workday-public-jobs-data"
+    }
+  }
+}
