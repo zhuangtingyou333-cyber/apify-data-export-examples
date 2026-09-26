@@ -8,6 +8,5 @@
     ],
     "maxJobsPerSite": 5,
     "includeDetails": true
-  },
-  "exampleUrl": "https://apify.com/peerless_columbine/workday-public-jobs-data/examples/export-workday-jobs-with-details"
+  }
 }

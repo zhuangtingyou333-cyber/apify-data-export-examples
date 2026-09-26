@@ -10,6 +10,5 @@
     ],
     "sort": "recency",
     "includeCompanyInfo": true
-  },
-  "exampleUrl": "https://apify.com/peerless_columbine/trustpilot-reviews-data-scraper/examples/export-trustpilot-reviews-and-replies"
+  }
 }

@@ -8,6 +8,5 @@
     "proxyConfiguration": {
       "useApifyProxy": false
     }
-  },
-  "exampleUrl": "https://apify.com/peerless_columbine/google-trends-scraper-api/examples/compare-google-trends-keyword-interest"
+  }
 }

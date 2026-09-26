@@ -14,7 +14,9 @@
       "apifyProxyGroups": [
         "RESIDENTIAL"
       ]
-    }
-  },
-  "exampleUrl": "https://apify.com/peerless_columbine/clutch-companies-reviews-scraper/examples/export-clutch-agency-profile"
+    },
+    "includeCompanyReviews": true,
+    "extractBuyerLeads": true,
+    "reviewInsights": true
+  }
 }
