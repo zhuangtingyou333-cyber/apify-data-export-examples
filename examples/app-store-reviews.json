@@ -1,0 +1,12 @@
+{
+  "actor": "peerless_columbine~apple-app-store-reviews-scraper-api",
+  "input": {
+    "appIds": [
+      "389801252"
+    ],
+    "country": "us",
+    "sourceMode": "archive",
+    "maxItems": 5
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/apple-app-store-reviews-scraper-api/examples/export-app-store-reviews-by-country"
+}

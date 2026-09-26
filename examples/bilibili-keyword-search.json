@@ -1,0 +1,10 @@
+{
+  "actor": "peerless_columbine~bilibili-all-in-one-scraper-api",
+  "input": {
+    "mode": "search",
+    "searchQuery": "人工智能教程",
+    "sortOrder": "pubdate",
+    "maxResults": 3
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/bilibili-all-in-one-scraper-api/examples/search-bilibili-videos-by-keyword"
+}

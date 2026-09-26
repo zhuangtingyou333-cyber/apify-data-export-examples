@@ -1,0 +1,16 @@
+{
+  "actor": "peerless_columbine~google-play-reviews-scraper-api",
+  "input": {
+    "appIds": [
+      "com.whatsapp"
+    ],
+    "country": "us",
+    "language": "en",
+    "ratingFilter": [
+      1,
+      2
+    ],
+    "maxReviews": 5
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/google-play-reviews-scraper-api/examples/export-low-star-google-play-reviews"
+}

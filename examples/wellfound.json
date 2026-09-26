@@ -1,0 +1,9 @@
+{
+  "actor": "peerless_columbine~wellfound-jobs-scraper-api",
+  "input": {
+    "query": "software engineer",
+    "maxItems": 20,
+    "maxPages": 10
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/wellfound-jobs-scraper-api/examples/export-wellfound-job-search-sample"
+}

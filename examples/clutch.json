@@ -1,0 +1,20 @@
+{
+  "actor": "peerless_columbine~clutch-companies-reviews-scraper",
+  "input": {
+    "startUrls": [
+      {
+        "url": "https://clutch.co/profile/ddnyc-0"
+      }
+    ],
+    "maxItems": 1,
+    "maxPages": 1,
+    "maxReviewsPerCompany": 5,
+    "proxy": {
+      "useApifyProxy": true,
+      "apifyProxyGroups": [
+        "RESIDENTIAL"
+      ]
+    }
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/clutch-companies-reviews-scraper/examples/export-clutch-agency-profile"
+}

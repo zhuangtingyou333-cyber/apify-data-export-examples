@@ -1,0 +1,15 @@
+{
+  "actor": "peerless_columbine~multi-ats-jobs-scraper",
+  "input": {
+    "companies": [
+      {
+        "ats": "greenhouse",
+        "company": "stripe"
+      }
+    ],
+    "maxJobsPerCompany": 5,
+    "includeDescriptions": true,
+    "outputProfile": "full"
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/multi-ats-jobs-scraper/examples/export-greenhouse-jobs-with-descriptions"
+}

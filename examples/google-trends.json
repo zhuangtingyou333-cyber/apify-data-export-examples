@@ -1,0 +1,13 @@
+{
+  "actor": "peerless_columbine~google-trends-scraper-api",
+  "input": {
+    "searchTerms": [
+      "ChatGPT"
+    ],
+    "maxItems": 1,
+    "proxyConfiguration": {
+      "useApifyProxy": false
+    }
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/google-trends-scraper-api/examples/compare-google-trends-keyword-interest"
+}

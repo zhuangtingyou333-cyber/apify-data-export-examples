@@ -1,0 +1,15 @@
+{
+  "actor": "peerless_columbine~trustpilot-reviews-data-scraper",
+  "input": {
+    "companyUrls": [
+      "pipedrive.com"
+    ],
+    "maxReviewsPerCompany": 5,
+    "languages": [
+      "all"
+    ],
+    "sort": "recency",
+    "includeCompanyInfo": true
+  },
+  "exampleUrl": "https://apify.com/peerless_columbine/trustpilot-reviews-data-scraper/examples/export-trustpilot-reviews-and-replies"
+}
