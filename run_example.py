@@ -102,7 +102,7 @@ def main():
     example = json.loads((ROOT / 'examples' / (args.example + '.json')).read_text())
     if not args.run:
         print(json.dumps(example, ensure_ascii=False, indent=2))
-        print('Dry-run only. Add --run to start one metered run ($0.15 event limit; platform costs extra).', file=sys.stderr)
+        print('Dry-run only. Add --run to start one metered run ($0.15 event limit; platform costs may be extra; check the Actor Pricing tab).', file=sys.stderr)
         return
     if args.output and args.output.exists():
         parser.error('Output file already exists; choose a new path before starting a paid run')

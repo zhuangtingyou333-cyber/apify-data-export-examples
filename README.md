@@ -2,11 +2,11 @@
 
 Small Python examples for running ten hosted Apify Actors and exporting JSON or CSV. Python 3.9+; no npm or third-party Python packages required.
 
-**Publisher disclosure:** These examples are maintained for the paid Actors published by `peerless_columbine`. The examples were developed with AI assistance. The hosted Actors charge for delivered results; Apify compute, proxy, storage and transfer costs are additional. These are integration examples, not independent product recommendations.
+**Publisher disclosure:** These examples are maintained for the paid Actors published by `peerless_columbine`. The examples were developed with AI assistance. The hosted Actors charge for delivered results; Most Actors add platform resource costs. Google Play Reviews and Workday include Actor-run resources; Workday also has its listed start event. Check each Actor's live Pricing tab. These are integration examples, not independent product recommendations.
 
 ## Inspect sample data before creating an account
 
-Download [the Python starter ZIP](apify-export-examples-20260926.zip), or inspect these small historical exports without an Apify login or a cloud run:
+Download [the Python starter ZIP](apify-export-examples-20260927.zip), or inspect these small historical exports without an Apify login or a cloud run:
 
 | Sample | JSON | CSV |
 |---|---|---|
@@ -48,7 +48,7 @@ python3 run_example.py ats-aggregation
 python3 run_example.py ats-aggregation --run --format csv --output results-jobs.csv
 ```
 
-The example starts one run with a **$0.15 Actor-event limit and 180-second timeout**. Platform resource fees are separate; $0.15 is not a total invoice cap. Existing output files are not overwritten. Run-start requests are not automatically retried, so a connection error cannot silently create a second job. Check the printed Console link before starting another run.
+The example starts one run with a **$0.15 Actor-event limit and 180-second timeout**. For Actors that add platform resource fees, $0.15 is only an event cap. For Google Play Reviews and Workday, Actor-run resources are included in event pricing. Downstream services can charge separately. Existing output files are not overwritten. Run-start requests are not automatically retried, so a connection error cannot silently create a second job. Check the printed Console link before starting another run.
 
 ## Adapt the examples
 
@@ -74,3 +74,5 @@ python3 -m unittest discover -s tests
 ```
 
 For a failed run, inspect its log and OUTPUT record before increasing limits. Report reproducible issues through the relevant Actor's Issues tab using non-sensitive inputs and a description of expected versus observed results. Never publish API tokens.
+
+Pricing and discovery update, September 27, 2026 (UTC+8): Google Play review event rates remain $0.08 / $0.07 / $0.06 / $0.05 per 1,000 according to plan, now including Actor-run resources and with no separate start fee. The latest owner-run check delivered 1,000 reviews. This is functional evidence, not evidence of external customers or exhaustive coverage. Collection stops after 15 minutes with an explicit limited-coverage report when needed.
